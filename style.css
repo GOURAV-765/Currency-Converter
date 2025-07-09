@@ -80,3 +80,66 @@ form button {
     font-size: 1.15rem;
     cursor: pointer;
 }
+
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .converter-form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .msg {
+        font-size: 16px;
+    }
+
+    .converter-form button {
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+
+    .form-footer {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 25px;
+        padding-top: 30px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+    }
+}
+
+@media(max-width: 400px){
+    .container{
+        padding: 1.3rem 1rem;
+    }
+    .container h2{
+        font-size: 1.4rem;
+    }
+    .dropdown .icon{
+        font-size: 1.2rem;
+    }
+    .message{
+        padding: 0.5rem 0;
+        font-size: 1rem;
+    }
+    .rotation{
+        font-size: 1rem;
+    }
+    form button{
+        padding: 0.75rem 0;
+        font-size: 0.8rem;
+    }
+}
